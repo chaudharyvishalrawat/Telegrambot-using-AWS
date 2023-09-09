@@ -27,7 +27,8 @@ Copy the URL.
 ![image](https://github.com/chaudharyvishalrawat/Telegrambot-using-AWS/assets/104204831/54190e2a-c576-481c-93e0-a5963f16e3ee)
 
 # Code 
-import json
+
+''' import json
 import requests
 
 def lambda_handler(event, context):
@@ -88,7 +89,7 @@ def send_telegram_message(chat_id, text):
         'chat_id': chat_id,
         'text': text
     }
-    r = requests.post(url, json=payload)
+    r = requests.post(url, json=payload) '''
 
 # Now go to the telegram and give a URL
 
